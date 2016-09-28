@@ -1,0 +1,110 @@
+body {
+    background: burlywood url(../images/exterior_lg.png) repeat-y center top;
+    background-size:1136px 1179px;
+}
+
+h1 {
+    color: #4c3807;
+    font-family: "Adobe Garamond Pro", serif;
+    font-size: 40pt;
+    font-style: normal;
+    text-align:left;
+    letter-spacing: 3px;
+    margin-left:5%;
+}
+
+img[alt="logo"] {
+    position: absolute;
+    right: 10%; /* Distance from the right side of the                   page where you want the image*/
+}
+
+ul {
+    list-style-type: none;
+    margin: 16px;
+    padding-top: 6px;
+    padding-bottom: 2px;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    font-family: 'Adobe Garamond Pro', serif;
+    font-size: 22pt;
+    color: #4c3807;
+    text-align: center;
+    font-style: bold;
+    padding: 10px 30px 6px 0px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+section {
+    width: 90%;
+    height: 600px;
+    background:transparent;
+    margin: auto;
+    padding: 4px;
+}
+
+div#one {
+    width:41%;
+    height:200px;
+    background-color: #c95663;
+    float:left;
+    opacity: .75;
+    text-align: center;
+    padding-top: 2%;
+    margin-bottom: 12px;
+    font-family: 'Lusitana', serif;
+
+}
+
+div#two {
+    margin-right: 15%;
+    width: 40%;
+    height: 500px;
+    float: right;
+    background-color: darkgoldenrod;
+    opacity: .65;
+    text-align:center;
+    padding-top: 2%;
+    box-shadow: 4px 4px 4px #000000;
+}
+
+div#three {
+    width: 40%;
+    height: 200px;
+    background-color: #edc35a;
+    float: left;
+    text-align: left;
+    padding-left: 8px;
+    padding-top: 2%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkred;
+    border-radius: 3px;
+    font-family: 'Lusitana', serif;
+    font-size:1.5em;
+}
+p {
+    color: darkblue;
+    font-family: "courier",serif;
+    font-size: 16px;
+    font-style: oblique;
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+.boxtext {
+    color: #333333;
+    font-family: 'Lusitana', serif;
+    font-size: 1em;
+    font-style: oblique;
+    line-height: 1;
+}
